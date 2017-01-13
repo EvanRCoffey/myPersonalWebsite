@@ -26,6 +26,8 @@
 
 <div id="mainSection">
 
+	<br><br>
+	<img src="assets/images/contact1.jpg" height="300px" width="auto">
 	<br><br><br><br>
 	<a class="connectIcons" href="https://www.linkedin.com/in/evan-coffey-6288227b" target="_blank"><img src="assets/images/socialMediaIcons/linkedin.png" align="middle" height="75px" width="auto" alt="LinkedIn"></a>
 	<a class="connectIcons" href="https://github.com/REvanCof" target="_blank"><img src="assets/images/socialMediaIcons/github.png" align="middle" height="75px" width="auto" alt="Github"></a>
@@ -51,6 +53,8 @@
 		$( "#mainSection" ).fadeIn(2000);
 	});	
 	$( document ).ready(function() {
+		var complement = randomComplement();
+		$( "#footerFloatRight" ).html(complement);
 		$( "#footer" ).fadeIn(2000);
 	});	
 </script>

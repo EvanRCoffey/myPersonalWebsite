@@ -27,6 +27,8 @@
 <div id="mainSection">
 
 <br><br>
+<img src="assets/images/portfolio1.jpg" height="300px" width="auto">
+<br><br>
 <p>Portfolio under construction...</p>
 
 </div>
@@ -43,6 +45,8 @@
 		$( "#mainSection" ).fadeIn(2000);
 	});	
 	$( document ).ready(function() {
+		var complement = randomComplement();
+		$( "#footerFloatRight" ).html(complement);
 		$( "#footer" ).fadeIn(2000);
 	});	
 </script>
