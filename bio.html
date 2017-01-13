@@ -14,20 +14,42 @@
 	<script type="text/javascript" src="assets/javascript/app.js"></script>
 </head>
 <body>
-	
-<div id="header">
 
+<div id="header">
 	<a href="home.html" class="navBarLinkLeft">R. Evan Coffey</a>
 	<a href="contact.html" class="navBarLinkRight">Contact</a>
 	<a href="portfolio.html" class="navBarLinkRight">Portfolio</a>
 	<a href="bio.html" class="navBarLinkRight">Bio</a>
+</div>
+
+<div id="mainSection">
+
+	<br><br>
+	<img src="assets/images/bio1.jpg" height="300px" width="auto">
+	<br><br><br>
+	Musician, turned server, turned web developer, I'm currently living in Austin, TX, taking classes, writing code, and working to move myself forward.
+	<br><br>
+	Want to know more about me?  <a href="http://amacadad.blogspot.com/" target="_blank" class="normalLink">Check out my blog</a>
+	<br><br>
+	Want to hire me?  <a href="https://previews.pdf-archive.com/2017/01/13/revancoffeyresume/preview-revancoffeyresume-1.jpg" target="_blank" class="normalLink">Check out my resume</a>
 
 </div>
 
-<br>
-<h1>My bio</h1>
-<br>
-<p>Bio under construction...</p>
+<div id="footer" style="display: none">
+
+	Bio
+	<div id="footerFloatRight"></div>
+
+</div>
+
+<script type="text/javascript">
+	$( document ).ready(function() {
+		$( "#mainSection" ).fadeIn(2000);
+	});
+	$( document ).ready(function() {
+		$( "#footer" ).fadeIn(2000);
+	});	
+</script>
 
 </body>
 </html>

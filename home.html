@@ -24,46 +24,58 @@
 
 </div>
 
-<div class="container">
-	<div class="row">
-		<div class="homePageText" id="homePageText1">
-			Well, hello there
-		</div>
-		<div class="homePageText" id="homePageText2">
-			You're looking nice, today
-		</div>
-		<div class="homePageText" id="homePageText3">
-			And you smell great, too
-		</div>
-		<div class="homePageText" id="homePageText4">
-			Oh, hey, now there's a header
-		</div>
-		<div class="homePageText" id="homePageText5">
-			Cool
-		</div>
-	</div>
+<div class="homePageText" id="homePageText1">
+	Well, hello there
+</div>
+<div class="homePageText" id="homePageText2">
+	You're looking nice, today
+</div>
+<div class="homePageText" id="homePageText3">
+	And you smell great, too
+</div>
+<div class="homePageText" id="homePageText4">
+	Oh, hey, now there's a header
+</div>
+<div class="homePageText" id="homePageText5">
+	Oh, wow, a footer too
+</div>
+<div class="homePageText" id="homePageText6">
+	Neato
+</div>
+
+<div id="footer" style="display: none">
+
+	Home
+	<div id="footerFloatRight"></div>
+
 </div>
 
 <script type="text/javascript">
 	$( document ).ready(function() {
 	    setTimeout( function(){ 
-		    $( "#homePageText1" ).fadeIn( "slow");} , 
+		    $( "#homePageText1" ).fadeIn(2000);} , 
 		    1000 );
 	    setTimeout( function(){ 
-		    $( "#homePageText2" ).fadeIn( "slow");}, 
+		    $( "#homePageText2" ).fadeIn(2000);}, 
 		    3000 );
 	    setTimeout( function(){ 
-		    $( "#homePageText3" ).fadeIn( "slow");}, 
+		    $( "#homePageText3" ).fadeIn(2000);}, 
 		    5000 );
 	    setTimeout( function(){ 
-		    $( "#homePageText4" ).fadeIn( "slow");}, 
+		    $( "#homePageText4" ).fadeIn(2000);}, 
 		    7000 );
 	    setTimeout( function(){ 
-		    $( "#header" ).fadeIn( "slow");}, 
+		    $( "#header" ).fadeIn(2000);}, 
 		    7000 );
 	    setTimeout( function(){ 
-		    $( "#homePageText5" ).fadeIn( "slow");}, 
+		    $( "#homePageText5" ).fadeIn(2000);}, 
 		    9000 );
+	    setTimeout( function(){ 
+		    $( "#footer" ).fadeIn(2000);}, 
+		    9000 );
+	    setTimeout( function(){ 
+		    $( "#homePageText6" ).fadeIn(2000);}, 
+		    11000 );
 	});	
 </script>
 

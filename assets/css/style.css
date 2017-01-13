@@ -12,22 +12,30 @@ html {
 	display: none;
 	text-align: center;
 	font-size: xx-large;
-	margin-top: 50px;
+	margin-top: 40px;
 	color: wheat;
 }
 
 #header {
-	border-bottom: 1px solid wheat;
 	padding: 15px;
 	font-size: large;
 	color: wheat;
 	text-align: left;
 }
 
+#mainSection {
+	display: none;
+	text-align: center;
+	font-size: large;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 60px;
+}
+
 a.navBarLinkRight {
 	font-size: large;
 	color: wheat;
-	text-decoration: none;
 	margin-right: 20px;
 	float: right;
 }
@@ -35,6 +43,34 @@ a.navBarLinkRight {
 a.navBarLinkLeft {
 	font-size: large;
 	color: wheat;
-	text-decoration: none;
 	margin-left: 20px;
+}
+
+a.connectIcons {
+	margin: 15px;
+}
+
+a.normalLink {
+	font-size: large;
+	color: wheat;
+}
+
+#footer {
+   	position:fixed;
+   	left:0px;
+   	bottom:0px;
+   	height:40px;
+   	width:96%;
+   	padding: 15px;
+	font-size: large;
+	color: wheat;
+	text-align: left;
+	margin-left: 20px;
+}
+
+#footerFloatRight {
+	font-size: large;
+	color: wheat;
+	margin-right: 20px;
+	float: right;
 }
