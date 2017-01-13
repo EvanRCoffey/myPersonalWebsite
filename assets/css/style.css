@@ -1,0 +1,40 @@
+html { 
+	background: url(../images/bg2.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	font-family: 'Arsenal', sans-serif;
+  	color: wheat;
+}
+
+.homePageText {
+	display: none;
+	text-align: center;
+	font-size: xx-large;
+	margin-top: 50px;
+	color: wheat;
+}
+
+#header {
+	border-bottom: 1px solid wheat;
+	padding: 15px;
+	font-size: large;
+	color: wheat;
+	text-align: left;
+}
+
+a.navBarLinkRight {
+	font-size: large;
+	color: wheat;
+	text-decoration: none;
+	margin-right: 20px;
+	float: right;
+}
+
+a.navBarLinkLeft {
+	font-size: large;
+	color: wheat;
+	text-decoration: none;
+	margin-left: 20px;
+}

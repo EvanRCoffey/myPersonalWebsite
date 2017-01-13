@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Evan's website - Home</title>
+	<!--Google Font-->
+	<link href="https://fonts.googleapis.com/css?family=Arsenal" rel="stylesheet">	
+	<!--CSS Reset file-->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!--External CSS file-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!--jQuery link-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<!--External JS file-->
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+</head>
+<body>
+
+<div id="header" style="display: none">
+
+	<a href="home.html" class="navBarLinkLeft">R. Evan Coffey</a>
+	<a href="contact.html" class="navBarLinkRight">Contact</a>
+	<a href="portfolio.html" class="navBarLinkRight">Portfolio</a>
+	<a href="bio.html" class="navBarLinkRight">Bio</a>
+
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="homePageText" id="homePageText1">
+			Well, hello there
+		</div>
+		<div class="homePageText" id="homePageText2">
+			You're looking nice, today
+		</div>
+		<div class="homePageText" id="homePageText3">
+			And you smell great, too
+		</div>
+		<div class="homePageText" id="homePageText4">
+			Oh, hey, now there's a header
+		</div>
+		<div class="homePageText" id="homePageText5">
+			Cool
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+	$( document ).ready(function() {
+	    setTimeout( function(){ 
+		    $( "#homePageText1" ).fadeIn( "slow");} , 
+		    1000 );
+	    setTimeout( function(){ 
+		    $( "#homePageText2" ).fadeIn( "slow");}, 
+		    3000 );
+	    setTimeout( function(){ 
+		    $( "#homePageText3" ).fadeIn( "slow");}, 
+		    5000 );
+	    setTimeout( function(){ 
+		    $( "#homePageText4" ).fadeIn( "slow");}, 
+		    7000 );
+	    setTimeout( function(){ 
+		    $( "#header" ).fadeIn( "slow");}, 
+		    7000 );
+	    setTimeout( function(){ 
+		    $( "#homePageText5" ).fadeIn( "slow");}, 
+		    9000 );
+	});	
+</script>
+
+</body>
+</html>
