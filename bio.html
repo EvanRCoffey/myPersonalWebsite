@@ -15,15 +15,15 @@
 </head>
 <body>
 
+<!--Header, with links to bio, portfolio, and contact-->
 <div id="header">
-	<a href="home.html" class="navBarLinkLeft">R. Evan Coffey</a>
-	<a href="contact.html" class="navBarLinkRight">Contact</a>
+	<a href="contact.html" class="navBarLinkRight" >Contact</a>
 	<a href="portfolio.html" class="navBarLinkRight">Portfolio</a>
-	<a href="bio.html" class="navBarLinkRight">Bio</a>
+	<a href="bio.html" class="navBarLinkRight" style="color:khaki">Bio</a>
 </div>
 
+<!--Main page content-->
 <div id="mainSection">
-
 	<br><br>
 	<img src="assets/images/bio1.jpg" height="300px" width="auto">
 	<br><br><br>
@@ -32,16 +32,14 @@
 	Want to know more about me?  <a href="http://amacadad.blogspot.com/" target="_blank" class="normalLink">Check out my blog</a>
 	<br><br>
 	Want to hire me?  <a href="https://previews.pdf-archive.com/2017/01/13/revancoffeyresume/preview-revancoffeyresume-1.jpg" target="_blank" class="normalLink">Check out my resume</a>
-
 </div>
 
+<!--Footer, with current page and random complement-->
 <div id="footer" style="display: none">
-
-	Bio
 	<div id="footerFloatRight"></div>
-
 </div>
 
+<!--Code for delayed fading in of page material-->
 <script type="text/javascript">
 	$( document ).ready(function() {
 		$( "#mainSection" ).fadeIn(2000);

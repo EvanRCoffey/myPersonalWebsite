@@ -15,31 +15,35 @@
 </head>
 <body>
 	
+<!--Header, with links to bio, portfolio, and contact-->
 <div id="header">
-
-	<a href="home.html" class="navBarLinkLeft">R. Evan Coffey</a>
 	<a href="contact.html" class="navBarLinkRight">Contact</a>
-	<a href="portfolio.html" class="navBarLinkRight">Portfolio</a>
+	<a href="portfolio.html" class="navBarLinkRight" style="color:khaki">Portfolio</a>
 	<a href="bio.html" class="navBarLinkRight">Bio</a>
-
 </div>
 
+<!--Main page content-->
 <div id="mainSection">
-
-<br><br>
-<img src="assets/images/portfolio1.jpg" height="300px" width="auto">
-<br><br>
-<p>Portfolio under construction...</p>
-
+	<br><br>
+	<img src="assets/images/portfolio1.jpg" height="300px" width="auto">
+	<br><br>
+	<p>Since October of last year, I've been enrolled in the Coding Boot Camp at UT Austin, learning to be a web developer.  I'll complete the program in April:</p>
+	<br>
+	<p>Here is my first group project from the boot camp (mobile-friendly)</p>
+	<a href="https://ancient-crag-50240.herokuapp.com/" class="normalLink" target="_blank">Find something fun to do near you</a>
+	<br><br>
+	<p>And here are a few of the homework assignments (not mobile friendly)</p>
+	<a href="https://fierce-tundra-47268.herokuapp.com/" class="normalLink" target="_blank">Sci-Fi Movie Trivia Game</a>
+	<a style="margin-left: 30px" href="https://salty-tundra-16392.herokuapp.com/" class="normalLink" target="_blank">Star Wars "RPG Game"</a>
+	<a style="margin-left: 30px" href="https://evening-reef-27591.herokuapp.com/" class="normalLink" target="_blank">Classical Composer Hangman Game</a>
 </div>
 
+<!--Footer, with current page and random complement-->
 <div id="footer" style="display: none">
-
-	Portfolio
 	<div id="footerFloatRight"></div>
-
 </div>
 
+<!--Code for delayed fading in of page material-->
 <script type="text/javascript">
 	$( document ).ready(function() {
 		$( "#mainSection" ).fadeIn(2000);

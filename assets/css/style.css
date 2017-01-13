@@ -8,6 +8,28 @@ html {
   	color: lightyellow;
 }
 
+.navBarLinkRight {
+	font-size: large;
+	color: lightyellow;
+	margin-right: 20px;
+	float: right;
+}
+
+.navBarLinkLeft {
+	font-size: large;
+	color: lightyellow;
+	margin-left: 20px;
+}
+
+.connectIcons {
+	margin: 15px;
+}
+
+.normalLink {
+	font-size: large;
+	color: lightyellow;
+}
+
 .homePageText {
 	display: none;
 	text-align: center;
@@ -34,28 +56,6 @@ html {
 	margin-bottom: 60px;
 }
 
-a.navBarLinkRight {
-	font-size: large;
-	color: lightyellow;
-	margin-right: 20px;
-	float: right;
-}
-
-a.navBarLinkLeft {
-	font-size: large;
-	color: lightyellow;
-	margin-left: 20px;
-}
-
-a.connectIcons {
-	margin: 15px;
-}
-
-a.normalLink {
-	font-size: large;
-	color: lightyellow;
-}
-
 #footer {
    	position:fixed;
    	left:0px;
@@ -72,6 +72,4 @@ a.normalLink {
 #footerFloatRight {
 	font-size: large;
 	color: lightyellow;
-	margin-right: 20px;
-	float: right;
 }
